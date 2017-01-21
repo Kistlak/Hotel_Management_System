@@ -146,11 +146,19 @@ public class Chooser extends javax.swing.JFrame {
     private void btnBillSysActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBillSysActionPerformed
         // Bill System Button
         
+        Bill_System CusFrame = new Bill_System();
+        CusFrame.setVisible(true);
+        this.dispose();
      
     }//GEN-LAST:event_btnBillSysActionPerformed
 
     private void btnDbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDbActionPerformed
-        // TODO add your handling code here:
+        // Databases Button 
+        
+        Databases newFrame = new Databases();
+        newFrame.setVisible(true);
+        this.dispose();
+        
     }//GEN-LAST:event_btnDbActionPerformed
 
     private void btnLogOutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogOutActionPerformed

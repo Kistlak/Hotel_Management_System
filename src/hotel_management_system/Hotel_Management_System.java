@@ -5,6 +5,8 @@
  */
 package hotel_management_system;
 
+import hotel_management_system.GUI.Login;
+
 /**
  *
  * @author user
@@ -16,6 +18,13 @@ public class Hotel_Management_System {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Login().setVisible(true);
+            }
+        });
+        
     }
     
 }
