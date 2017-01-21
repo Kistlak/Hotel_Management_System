@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package juicebar.GUI;
+package hotel_management_system.GUI;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class DBConnection {
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/juicebar", "root", "");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotel", "root", "");
 
         return conn;
     }

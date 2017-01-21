@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package juicebar;
+package hotel_management_system;
 
 /**
  *
  * @author user
  */
-public class JuiceBar {
+public class Hotel_Management_System {
 
     /**
      * @param args the command line arguments
